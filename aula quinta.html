@@ -1,0 +1,9 @@
+<h1> Calculando seu peso por imc <h1>
+<script src = "funcoes.js"></script>
+<script>
+var massa = pegaUmNumero("Quanto você pesa?:");
+var altura = pegaUmNumero("Qual a sua altura?");
+var imc = massa / (altura * altura);
+var total = imc;
+ document.write (" <p> o seu imc é " +formataValor(imc)+ "</p>");
+</script>

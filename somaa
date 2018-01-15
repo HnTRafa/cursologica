@@ -1,0 +1,13 @@
+<script>
+
+	var idadeRafael = 27; 
+	var idadeAna = 28; 
+	var idadeMaria = 26;
+ 	var IdadeDeivson = 34;
+	var IdadeMatheus = 19;
+	var media = soma / 5;
+        var soma = idadeRafael + idadeAna + idadeMaria + IdadeMatheus + IdadeDeivson;
+        document.write("<p>a soma das idades " + soma + "</p>");  
+	document.write("<p>A media das idades " + media + "</p>");
+	
+</script>

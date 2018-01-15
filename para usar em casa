@@ -1,0 +1,40 @@
+<h1> UBER </h1>
+<script> 
+var precoBase = 2.00;
+var precoMinuto =  0.26;
+var tempo =  parseFloat (
+	prompt("Quanto tempo levou?")
+	.replace(',' , '.')
+	);
+var precoKm = 1.40;
+var distancia = parseFloat 
+	(prompt("Distancia Percorida?")
+	.replace(',' , '.')
+	);
+var UBER = precoBase + (precoMinuto * tempo) + (precoKm * distancia);
+	console.log ("<p> precoBase R$  " +precoBase.toFixed(2).replace("," , ".") +"</p>");
+	console.log ("<p> precoMinuto R$  " +precoMinuto.toFixed(2).replace("," , ",") +"</p>");
+	console.log ("<p> preçoKm R$  " +precoKm.toFixed(2).replace("," , ".") +"</p>");
+	document.write ("<p> UBER </p> R$  " + UBER.toFixed(2).replace("," , ".") +"</p>");
+
+</script> 
+
+<br><br>
+
+<h1> Carro</h1>
+
+
+
+<script>
+// para numero se usa toFixed , replace( troca . por ,) (prompt = Devolve texto)
+var precoGasolina = parseFloat (prompt("Quanto você gasta com Gasolina?").replace(',' , '.'));
+var consumo = parseFloat (prompt("Qual o consumo ?").replace(',' , '.'));
+
+	var Gasolina = precoGasolina * distancia / consumo ;
+	var Estacionamento = parseFloat (prompt("Quanto você gasta com Estacionamento?").replace(',' , '.'));
+	var totalCarro = Gasolina + Estacionamento
+	
+	document.write ("<p> Gasolina R$  " +Gasolina.toFixed(2).replace("." , ",") +"</p>");
+	document.write ("<p> Estacionamento R$ "+Estacionamento.toFixed(2).replace("." , ",") +"</p>");
+	document.write ("<p>Total. R$ " +totalCarro.toFixed(2).replace("." , ",")+ "</p>");
+</script>

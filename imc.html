@@ -1,0 +1,11 @@
+<h1>Calculando seu IMC</h1>
+
+ <script>
+
+   var altura = parseFloat(prompt("Qual sua altura em metros?").replace("," , "."));
+   var massa = parseFloat(prompt("Qual sua massa em kilogramas?").replace("," , "."));
+   var imc = massa / (altura * altura);
+
+   document.write("O seu IMC é: " + imc.toFixed(1).replace("." , ","));
+
+ </script>
